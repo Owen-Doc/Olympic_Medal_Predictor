@@ -22,9 +22,10 @@ tool to convert PDF to excel https://simplypdf.com/Excel to[May-2021-Sanctions-L
 - Tools
 
 1. Python/Jupyter Notebook for data scraping, ETL process- with BeautifulSoup for scraping from sites
-
 2. Tableau for Heat maps weigh medal winners/counts vs home field advantage?
-
 3. R for statistical analysis and correlation visualizations prior to machine learning model?
+4. HTML/javascript for presentation of findings (viewer friendly stats and user friendly inputs with output predictions?)
+5. Flask App for web instance
+6. Google Maps API for visualization of geographical correlates in relation to medal placement/ density of competing athletes per contry?
 
    
