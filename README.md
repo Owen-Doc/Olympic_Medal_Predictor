@@ -1,6 +1,14 @@
 # Olympic_Medal_Predictor
 
-The goal for this final project is to utilize our skills in data wrathing, ETL and relational databases to build out a machine learning model (supervised) 
+The goal for this final project is to utilize our skills in data wrathing, ETL, relational databases and statistical visualization to eventually build out a machine learning model (supervised) that will predict the 2021 Olympic model counts for competing countries. Using historical Olympic data dating back to as early as 1900, in addition to supplemental doping/disqualification data, we will analyze performance data metrics and athlete categorical metadata. 
+
+Questions to consider that can conflate the data:
+- Merging doping data with previous performance data--as atheletes are found guilty, they are removed from medal data (what type of merge is most appropriate? Are there ways to concatenate data or build off of both resources to maintain integrity of true historical performance?
+- Are we isolating Summer vs Winter Olympics?
+- Disproprotional, imbalanced nature of the competitng athletes and respective countries (with respect to population, total athletes competing, having model weigh those values more than performance metrics)
+- Home field advantage question? - Correlation between medal counts per country and host country of specific Olympic games?
+- Team vs individual sport?
+- Subjective nature of judging certain sports? Rules changing over time? 
 
 
 ## Data Features and Resources:
@@ -11,21 +19,12 @@ using data here to update the dataset for the 2022 olympics https://github.com/r
 Ineligible athletes list from https://www.athleticsintegrity.org/disciplinary-process/global-list-of-ineligible-persons
 tool to convert PDF to excel https://simplypdf.com/Excel to[May-2021-Sanctions-List-Full.xlsx](https://github.com/Owen-Doc/Olympic_Medal_Predictor/tree/main/Resources/May-2021-Sanctions-List-Full.xlsx) 
 
-
-- Topic
-
-1. A machine learning model to predict 2021 Olympic medal counts for different countries, with a consideration for doping status/history using data from 1900 back.
-2. One of the challenges is merging the doping history with the Olympic performance data – when an athlete is found guilty, they are removed from the medal data.
-3. Home field advantage question?
-4. Favorite sports by country?
-5. On the dataset, make sure we specify that the medal column is converted from “NA” to “No Medal”
-
 - Tools
 
-1. Python tools to scrape data, beautiful Soup
+1. Python/Jupyter Notebook for data scraping, ETL process- with BeautifulSoup for scraping from sites
 
 2. Tableau for Heat maps weigh medal winners/counts vs home field advantage?
 
-3. Statistics: need to look into position or possible time results for races?
+3. R for statistical analysis and correlation visualizations prior to machine learning model?
 
    
