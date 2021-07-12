@@ -5,3 +5,6 @@ This project will be focused on the Olympics, the relationship between participa
 The dataset comprises of athletes who have participated at the Olympics from 1896 – 2016, along ineligible athletes for doping.
 
 Machine learning model would be used to predict the relationship and Tableau to relate through presentation
+
+[[ https://github.com/Owen-Doc/Olympic_Medal_Predictor/tree/Carly ]]
+
