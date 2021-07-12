@@ -8,5 +8,6 @@ Machine learning model would be used to predict the relationship and Tableau to 
 
 The machine learning codes are found in [Carly's github page](https://github.com/Owen-Doc/Olympic_Medal_Predictor/tree/Carly)
 
+The database connection strings and code are found in [Owen's github page](https://github.com/Owen-Doc/Olympic_Medal_Predictor/tree/OwensBranch)
 
 
