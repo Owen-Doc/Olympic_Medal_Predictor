@@ -80,7 +80,7 @@ The model was repeated, this time to show the importance of features in the rand
 
 The optimization goal for 75% or above was meet. The analysis reveals an accuracy of 0.93 weighted average for the first run of the Random Forest classifier model and 0.90 weighted average for the 2nd run this time showing the importance of using the relevant features to predict a favorable accuracy level.
 
-The following are links for the required deliverable: 
+#### The following are links for the required deliverables: 
 
 [Machine learning codes](https://github.com/Owen-Doc/Olympic_Medal_Predictor/tree/Carly)
 
