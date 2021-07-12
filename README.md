@@ -6,5 +6,5 @@ The dataset comprises of athletes who have participated at the Olympics from 189
 
 Machine learning model would be used to predict the relationship and Tableau to relate through presentation
 
-[[ https://github.com/Owen-Doc/Olympic_Medal_Predictor/tree/Carly ]]
+[Carly's github page](https://github.com/Owen-Doc/Olympic_Medal_Predictor/tree/Carly)
 
