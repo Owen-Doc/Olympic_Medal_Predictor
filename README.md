@@ -33,3 +33,14 @@ Athletics Abbreviation? https://en.wikipedia.org/wiki/Athletics_abbreviations
 
    
 
+Added machine learning models
+
+Added resource SanctionedAthletes.xlsx
+
+ [drug_use_forest.ipynb](drug_use_forest.ipynb)  and revised with 
+
+ [drug_use_forest-modified.ipynb](drug_use_forest-modified.ipynb) 
+
+adding in dataset https://www.imf.org/-/media/Files/Publications/WEO/WEO-Database/2021/WEOApr2021all.ashx to our clean athlete dataset to retrieve population, employment + unemployment data and GDP in current USD prices.
+
+main github paged updated : https://github.com/Owen-Doc/Olympic_Medal_Predictor
