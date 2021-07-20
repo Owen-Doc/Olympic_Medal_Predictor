@@ -11,3 +11,5 @@ The machine learning codes are found in [Carly's github page](https://github.com
 The database connection strings and code are found in [Owen's github page](https://github.com/Owen-Doc/Olympic_Medal_Predictor/tree/OwensBranch)
 
 This is the [link to the Google Slides](https://docs.google.com/presentation/d/13BkwpaAfonPbkYUwHNgPaWav6qAYV6PfYI1Y0RyVfMI/edit#slide=id.gc6f73a04f_0_0)
+
+The readme of the main branch
