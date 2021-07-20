@@ -12,4 +12,4 @@ The database connection strings and code are found in [Owen's github page](https
 
 This is the [link to the Google Slides](https://docs.google.com/presentation/d/13BkwpaAfonPbkYUwHNgPaWav6qAYV6PfYI1Y0RyVfMI/edit#slide=id.gc6f73a04f_0_0)
 
-The readme of the main branch shows a proper breakdown of the project, which are the model used,
+The ReadMe of the main branch shows a proper breakdown of the project. It reveals the tools used on the dataset to give a high accuracy of predicting the initial outcome through relevant features. Visualization of the dataset amongst features were also included from tableau to give more light into understanding 
