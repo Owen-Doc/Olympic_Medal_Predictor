@@ -44,3 +44,29 @@ Added resource SanctionedAthletes.xlsx
 adding in dataset https://www.imf.org/-/media/Files/Publications/WEO/WEO-Database/2021/WEOApr2021all.ashx to our clean athlete dataset to retrieve population, employment + unemployment data and GDP in current USD prices.
 
 main github paged updated : https://github.com/Owen-Doc/Olympic_Medal_Predictor
+
+sample database query provided here: [queries.sql](queries.sql) 
+
+Added in GDP and population data to run some preliminary data, added chart to google docs
+
+https://docs.google.com/presentation/d/13BkwpaAfonPbkYUwHNgPaWav6qAYV6PfYI1Y0RyVfMI/edit#slide=id.gc6f73a04f_0_0
+
+![image-20210719230053292](Resources/image-20210719230053292.png)
+
+We potentially find that GDP and Population factor in medal counts, as such that shows the rise in countries like China in recent years where they had a push in GPD 
+
+![image-20210719230219400](Resources/image-20210719230219400.png)
+
+
+
+with accuracy of 80%
+
+![image-20210719232259970](Resources/image-20210719232259970.png)
+
+The precision of the model using Sport and Event was  7% more accurate 
+
+![image-20210719232148056](Resources/image-20210719232148056.png)
+
+and hard a larger weight in importance
+
+![image-20210719232521833](Resources/image-20210719232521833.png)
