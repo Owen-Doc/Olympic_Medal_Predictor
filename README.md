@@ -53,7 +53,7 @@ https://docs.google.com/presentation/d/13BkwpaAfonPbkYUwHNgPaWav6qAYV6PfYI1Y0RyV
 
 ![image-20210719230053292](Resources/image-20210719230053292.png)
 
-We potentially find that GDP and Population factor in medal counts, as such that shows the rise in countries like China in recent years where they had a push in GPD 
+We potentially find that GDP and Population factor in medal counts, as such that shows the rise in countries like China in recent years where they had a push in GDP 
 
 ![image-20210719230219400](Resources/image-20210719230219400.png)
 
@@ -63,10 +63,15 @@ with accuracy of 80%
 
 ![image-20210719232259970](Resources/image-20210719232259970.png)
 
+saved model:  [PredictiveOlympicsGDP.h5](Resources/PredictiveOlympicsGDP.h5) 
+
 The precision of the model using Sport and Event was  7% more accurate 
 
 ![image-20210719232148056](Resources/image-20210719232148056.png)
 
-and hard a larger weight in importance
+and hard a larger weight in importance  
 
 ![image-20210719232521833](Resources/image-20210719232521833.png)
+
+We might prefer to use model [PredictiveOlympicsGDP_Event.h5](Resources/PredictiveOlympicsGDP_Event.h5)
+
