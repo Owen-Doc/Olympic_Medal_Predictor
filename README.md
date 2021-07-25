@@ -20,3 +20,4 @@ Below are images of the process flow
 
 <img width="752" alt="visualizing feature selection" src="https://user-images.githubusercontent.com/78067427/126907996-8861ccd1-db22-4d41-b181-cfafb1c3b58a.PNG">
 
+<img width="775" alt="ML result" src="https://user-images.githubusercontent.com/78067427/126908018-0c356eda-aafd-46f8-988b-b618574ebe8e.PNG">
