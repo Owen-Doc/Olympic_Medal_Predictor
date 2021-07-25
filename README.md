@@ -98,7 +98,7 @@ The first run of the model shows an accuracy of 0.77 weighted average, populatio
 
 ## Conclusion
 
-The optimization goal for 75% or above was meet. The model shows certain features indeed are influencial for countries to win more medal counts. These major features are the country itself, its population, GDP, the sport category and the event (winter or summer olympics). Below is an example of China's GDP growth in correlation to more medal achievements
+The optimization goal for 75% or above was meet. The model shows certain features indeed are influencial for countries to gain more medal counts. These major features are the country itself, its population, GDP, the sport category(s) and the event participated upon (winter or summer olympics). Below is an example of China's GDP growth in correlation to more medal achievements
 
 <img width="681" alt="GDP" src="https://user-images.githubusercontent.com/78067427/126914624-6b4ba5a2-74e4-4370-948e-8b7300b5be9e.PNG">
 
