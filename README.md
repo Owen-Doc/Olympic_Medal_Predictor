@@ -88,6 +88,9 @@ Medal and No medal
 
 <img width="752" alt="visualizing feature selection" src="https://user-images.githubusercontent.com/78067427/126914023-c87dda44-be54-4533-9ea8-92cdf65a4748.PNG">
 
+<img width="784" alt="Body types" src="https://user-images.githubusercontent.com/78067427/126915041-00ca249d-325b-4cee-88eb-00dcd5926187.PNG">
+
+
 ## Machine Learning
 
 The data was split into testing and training sets and scaled. The Random Forest Classifer model was created, fitted and used to predict for an accurate score. The model was repeated, this time to show the importance of features in the random forest model
