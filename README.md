@@ -83,11 +83,10 @@ Correlation visualizations when building ML model
   - Population
   - GDP
 
-![image](https://user-images.githubusercontent.com/78067427/126913925-5d1fec65-e1fd-42dc-b4b1-9763642b6af7.png)
-
-
 #### Target Features 
 Medal and No medal
+
+<img width="752" alt="visualizing feature selection" src="https://user-images.githubusercontent.com/78067427/126914023-c87dda44-be54-4533-9ea8-92cdf65a4748.PNG">
 
 ## Machine Learning
 
@@ -95,9 +94,13 @@ The data was split into testing and training sets and scaled. The Random Forest 
 
 <img width="775" alt="ML result" src="https://user-images.githubusercontent.com/78067427/126913817-c256c231-1dc8-43bc-acb8-bc237f15c795.PNG">
 
+The first run of the model shows an accuracy of 0.77 weighted average, population and GDP being the major factors for countries winning medals. The second run of the Random Forest classifier model with added features of Sporting category and Events gave a 0.84 weighted average predicting to a favorable accuracy level.
+
 ## Conclusion
 
-The optimization goal for 75% or above was meet. The analysis reveals an accuracy of 0.93 weighted average for the first run of the Random Forest classifier model and 0.90 weighted average for the 2nd run this time showing the importance of using the relevant features to predict a favorable accuracy level.
+The optimization goal for 75% or above was meet. The model shows certain features indeed are influencial for countries to win more medal counts. These major features are the country itself, its population, GDP, the sport category and the event (winter or summer olympics). Below is an example of China's GDP growth in correlation to more medal achievements
+
+<img width="681" alt="GDP" src="https://user-images.githubusercontent.com/78067427/126914624-6b4ba5a2-74e4-4370-948e-8b7300b5be9e.PNG">
 
 #### The following are links for the required deliverables: 
 
