@@ -17,3 +17,6 @@ The ReadMe of the main branch shows a proper breakdown of the project. It reveal
 Below are images of the process flow
 
 <img width="752" alt="Tools" src="https://user-images.githubusercontent.com/78067427/126907976-40eecc5e-4f52-4672-8aca-53bef01d0b6b.PNG">
+
+<img width="752" alt="visualizing feature selection" src="https://user-images.githubusercontent.com/78067427/126907996-8861ccd1-db22-4d41-b181-cfafb1c3b58a.PNG">
+
