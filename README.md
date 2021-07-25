@@ -3,13 +3,15 @@
 ## INTRODUCTION
 
 
+<img width="812" alt="Olympic_symbol" src="https://user-images.githubusercontent.com/78067427/126909102-1fc7cf99-dae8-40bc-b1f2-d22367a20c4d.png">
+
 Full of blood, passion and extraordinary feats of athletic endeavour, the Olympic Games were the sporting, social and cultural highlight of the Ancient Greek calendar for almost 12 centuries. The modern Olympic Games or Olympics are leading international sporting events featuring summer and winter sports competitions in which thousands of athletes from around the world participate in a variety of competitions. The Olympic Games are considered the world's foremost sports competition with more than 200 nations participating. The Olympic Games are normally held every four years, alternating between the Summer and Winter Olympics every two years in the four-year period.
 
-![image](https://user-images.githubusercontent.com/78067427/125239768-2609c880-e2b7-11eb-95e8-08cd3dfa7ced.png)
+This project will be focused on the relationship between participants, medal achievers and predictions for medals counts during a certain period of the event. The purpose is to determine if countries with certain features can influence achieving higher number of medals at incoming games.
 
-However, during the early 20th century, many Olympic athletes discovered ways to improve their athletic abilities by boosting testosterone. As their methods became more extreme, it became increasingly evident that the use of performance-enhancing drugs was not only a threat to the integrity of sport but could also have potentially fatal side effects on the athlete.
+The dataset comprises of athletes who have participated at the Olympics from 1896 – 2016, along ineligible athletes for doping. Relevant years from 1960 -2016 will be used to run the project
 
-![image](https://user-images.githubusercontent.com/78067427/125240046-8dc01380-e2b7-11eb-9a4a-d78bf209be8c.png)
+<img width="758" alt="Participation" src="https://user-images.githubusercontent.com/78067427/126909974-f00f710b-0043-441e-b9f5-6105ff003350.PNG">
 
 ## GOAL
 
