@@ -17,7 +17,14 @@ The dataset comprises of athletes who have participated at the Olympics from 189
 
 The essence for this final project is to improvise on data wrangling, ETL, relational databases and statistical visualization to:
   - Create a supervised machine learning model to predict the 2021 Olympic medal counts for competing countries. 
-  - Examine supplementary doping/disqualification data to quantify its correlation to the performance of the data metrics and athlete categorical metadata.
+  - Manipulate data to quantify its correlation to the performance of the data metrics and athlete categorical metadata.
+  - Answer preliminary questions like:
+    - Are we isolating Summer vs Winter Olympics?
+    - Home field advantage question?
+    - Correlation between medal counts per country and host country of specific Olympic games?
+    - Team vs individual sport?
+    - Subjective nature of judging certain sports?
+    - Rules changing over time?
 
 ## Communication Protocols
 
@@ -30,10 +37,17 @@ The essence for this final project is to improvise on data wrangling, ETL, relat
 ## ETL Process
 
 #### Main dataset 
+Primary CSV: https://www.kaggle.com/heesoo37/120-years-of-olympic-history-athletes-and-results athlete_events.csv.zip 
 
-https://www.kaggle.com/heesoo37/120-years-of-olympic-history-athletes-and-results athlete_events.csv.zip using data here to update the dataset for the 2022 olympics https://github.com/rgriff23/Olympic_history
+Complete webpage that data can be scraped from
+https://www.olympedia.org/athletes
 
-Ineligible athletes list from https://www.athleticsintegrity.org/disciplinary-process/global-list-of-ineligible-persons tool to convert PDF to excel https://simplypdf.com/Excel toMay-2021-Sanctions-List-Full.xlsx
+Using data here to update the dataset for the 2022 olympics https://github.com/rgriff23/Olympic_history
+
+Ineligible athletes list from https://www.athleticsintegrity.org/disciplinary-process/global-list-of-ineligible-persons 
+
+Tool to convert PDF to excel 
+https://simplypdf.com/Excel toMay-2021-Sanctions-List-Full.xlsx
 
 #### Data collection and preprocessing
 
@@ -46,9 +60,11 @@ PostgreSQL server
 #### Analytic tools
 
 Sci-kit learn for ML model - RandomForestClassifier
-R for statistical analysis and correlation visualizations when building ML model
+Correlation visualizations when building ML model
 
-#### Columns created
+<img width="752" alt="Tools" src="https://user-images.githubusercontent.com/78067427/126913788-2461dfe2-13fb-4b7e-ae60-0fe7ede5f662.PNG">
+
+#### Relevant Columns analyzed
   - Year
   - Season
   - Games
@@ -64,19 +80,20 @@ R for statistical analysis and correlation visualizations when building ML model
   - Event
   - Medal
   - Medal Type
+  - Population
+  - GDP
+
+![image](https://user-images.githubusercontent.com/78067427/126913925-5d1fec65-e1fd-42dc-b4b1-9763642b6af7.png)
+
 
 #### Target Features 
-Medal (None, Gold, Silver, Bronze)
+Medal and No medal
 
 ## Machine Learning
 
-The data was split into testing and training sets and scaled. The Random Forest Classifer model was created, fitted and used to predict for an accurate score
+The data was split into testing and training sets and scaled. The Random Forest Classifer model was created, fitted and used to predict for an accurate score. The model was repeated, this time to show the importance of features in the random forest model
 
-![image](https://user-images.githubusercontent.com/78067427/125244463-5f453700-e2bd-11eb-9114-40392ae6b6c7.png)
-
-The model was repeated, this time to show the importance of features in the random forest model
-
-![image](https://user-images.githubusercontent.com/78067427/125245032-0de97780-e2be-11eb-973e-80ecfe9ff56b.png)
+<img width="775" alt="ML result" src="https://user-images.githubusercontent.com/78067427/126913817-c256c231-1dc8-43bc-acb8-bc237f15c795.PNG">
 
 ## Conclusion
 
