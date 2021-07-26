@@ -31,21 +31,26 @@ Athletics Abbreviation? https://en.wikipedia.org/wiki/Athletics_abbreviations
 
 3. Statistics: need to look into position or possible time results for races?
 
-   
-
-Added machine learning models
-
-Added resource SanctionedAthletes.xlsx
-
- [drug_use_forest.ipynb](drug_use_forest.ipynb)  and revised with 
-
- [drug_use_forest-modified.ipynb](drug_use_forest-modified.ipynb) 
 
 adding in dataset https://www.imf.org/-/media/Files/Publications/WEO/WEO-Database/2021/WEOApr2021all.ashx to our clean athlete dataset to retrieve population, employment + unemployment data and GDP in current USD prices.
 
 main github paged updated : https://github.com/Owen-Doc/Olympic_Medal_Predictor
 
 sample database query provided here: [queries.sql](queries.sql) 
+
+Cleanup data worksheets:
+
+ [drug_test_id.ipynb](cleaningdata/drug_test_id.ipynb),  [Merge_WEO.ipynb](cleaningdata/Merge_WEO.ipynb) ,  [merge_drug_user_data.ipynb](cleaningdata/merge_drug_user_data.ipynb) (last one created dataset for use by team)
+
+Added machine learning models, saving models
+
+ [GDPandEvent_as_factor_in_medalling.ipynb](add_ML/GDPandEvent_as_factor_in_medalling.ipynb) , 
+
+​	Neural Network:  [nn_PredictiveOlympicsGDP_Event.h5](Resources/nn_PredictiveOlympicsGDP_Event.h5) 
+
+​	Random Forest:  [random_forest_PredictiveOlympicsGDP_Event.joblib](Resources/random_forest_PredictiveOlympicsGDP_Event.joblib) 
+
+
 
 Added in GDP and population data to run some preliminary data, added chart to google docs
 
@@ -72,6 +77,3 @@ The precision of the model using Sport and Event was  7% more accurate
 and hard a larger weight in importance  
 
 ![image-20210719232521833](Resources/image-20210719232521833.png)
-
-We might prefer to use model [PredictiveOlympicsGDP_Event.h5](Resources/PredictiveOlympicsGDP_Event.h5)
-
